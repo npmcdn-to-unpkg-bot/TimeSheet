@@ -19,8 +19,8 @@ import {Grid} from '../grid/grid.component';
 
 export class Sheet implements OnInit{
     constructor(
-        @Inject(Router) private _router: Router,
-        @Inject(RouteParams) private _routeParams: RouteParams
+        private _router: Router,
+        private _routeParams: RouteParams
     ){}
 
     ngOnInit(){
