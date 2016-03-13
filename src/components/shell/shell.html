@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="Header text-xs-right">
+        <h1>TimeSheet</h1>
+    </div>
+    <nav>
+        <a [routerLink]="['Login']">Login</a>
+        <a [routerLink]="['Week']">Week</a>
+        <a [routerLink]="['/Sheet', {year: 2016, week: 10}]">Sheet</a>
+    </nav>
+    <router-outlet></router-outlet>
+</div>

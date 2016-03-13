@@ -1,0 +1,16 @@
+body {
+//    font-family: 'Poiret One', cursive !important;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+
+    background-color: lightgray;
+}
+
+.table {
+    th, td {
+        text-align: center;
+    }
+    input {
+        width: 2em;
+        text-align: center;
+    }
+}
