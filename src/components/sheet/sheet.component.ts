@@ -12,7 +12,7 @@ import {Grid} from '../grid/grid.component';
         `
         <button (click)="changeWeek(-1)" type="button" class="btn btn-secondary pull-left">Prev week</button>
         <button (click)="changeWeek(1)" type="button" class="btn btn-secondary pull-right">Next week</button>
-            <grid [year]="_routeParams.params.year" [week]="_routeParams.params.week"></grid>
+        <grid [year]="_routeParams.params.year" [week]="_routeParams.params.week"></grid>
         `,
     directives: [Grid]
 })

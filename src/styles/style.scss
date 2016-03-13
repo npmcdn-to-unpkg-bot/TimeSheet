@@ -5,9 +5,10 @@ body {
     background-color: lightgray;
 }
 
-.table {
+table {
     th, td {
         text-align: center;
+        min-width: 4em !important;
     }
     input {
         width: 2em;

@@ -2,9 +2,10 @@ body {
   font-family: 'PT Sans Narrow', sans-serif !important;
   background-color: lightgray; }
 
-.table th, .table td {
-  text-align: center; }
-.table input {
+table th, table td {
+  text-align: center;
+  min-width: 4em !important; }
+table input {
   width: 2em;
   text-align: center; }
 
