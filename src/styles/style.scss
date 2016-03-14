@@ -1,14 +1,13 @@
 body {
-//    font-family: 'Poiret One', cursive !important;
+   //font-family: 'Poiret One', cursive !important;
     font-family: 'PT Sans Narrow', sans-serif !important;
-
-    background-color: lightgray;
 }
 
 table {
     th, td {
         text-align: center;
         min-width: 4em !important;
+        color: #55595c;
     }
     input {
         width: 2em;
