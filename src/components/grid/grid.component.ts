@@ -1,9 +1,11 @@
 import moment from 'moment';
 import {Component, Input, OnInit} from 'angular2/core';
+import {HourDirective} from './hour.directive';
 
 @Component({
     selector: 'grid',
-    templateUrl: 'src/components/grid/grid.template.html'
+    templateUrl: 'src/components/grid/grid.template.html',
+    directives: [HourDirective]
 })
 
 export class Grid implements OnInit{
